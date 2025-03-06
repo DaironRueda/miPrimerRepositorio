@@ -4,6 +4,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>pagina principal</title>
+
+<!-- style embebido -->
+	<style>
+		p {
+			/*	aplicar colores al texto		*/
+			color:yellow ;		
+		}
+	</style>
+
+<link rel="stylesheet" href="css/style.css">
+	
 </head>
 <body>
 
@@ -32,31 +43,40 @@
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam repellat, repellendus non rem quod deleniti et fuga quas odit tenetur id nihil explicabo impedit tempore eius nisi saepe architecto, assumenda.
 </p>	
 
-<h2>DAIRON RUEDA CLARO</h2>
+<h2 class="hDiferente">DAIRON RUEDA CLARO</h2>
 
 <br>
 
 <br>
 <!-- negrita sin peso semantico -->
 
-<b>Negrita</b>
+<b class="hDiferente">Negrita</b>
 
 <br>
 
-<strong>Negrita con peso semantico</strong>
-<p>
+<div class="divRGBA">
+	<p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum officia, voluptatem ipsam quae voluptatibus non, in distinctio accusamus aliquam a! Veniam voluptatem, vel voluptate id qui harum veritatis, ab odio.</p>	
+</div><br>
+
+<div class="divHSL">
+	<p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum officia, voluptatem ipsam quae voluptatibus non, in distinctio accusamus aliquam a! Veniam voluptatem, vel voluptate id qui harum veritatis, ab odio.</p>	
+</div>
+
+<strong class="negritaSemantica">Negrita con peso semantico</strong><br>
+
+<p class="pDairon">
 
 	Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe alias, nihil repellendus porro, dolorem aspernatur sit labore, earum quos doloribus provident iste adipisci voluptas in repellat. Iusto labore sed eius.
 </p>
 
-<i>texto en cursiva </i>
+<i class="colorRGB">texto en cursiva </i>
 <em>cursiva con peso semantico </em>
 
 <!-- texto pequeño -->
 <small>texto pequeño</small>
 
 <!-- formula semnatica -->
-<p>F <sub>(x)</sub> = 2X <sup>3</sup> - 4X</p>
+<p class="hDiferente">F <sub>(x)</sub> = 2X <sup>3</sup> - 4X</p>
 
 <br>
 
@@ -166,13 +186,13 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam repellat, repe
 		<label for="">Formulario Estudiante Nuevo</label><br>
 
 		<label for="">ID</label><input type="number" placeholder= "Ingresar numero de identificación" 
-		style="width: 50%">
+		style="width: 100%">
 		<br>
-		<label for="">Nombres:</label><input type="text" style ="width: 50%; background: #F9EBEA;" placeholder="Ingresar nombre">
+		<label for="">Nombres:</label><input type="text" style ="width: 100%; background: #F9EBEA;" placeholder="Ingresar nombre"> 
 
-		<label for="">Apellidos:</label><input type="text" style ="width: 50%; background: #F9EBEA;" placeholder="Ingresar Apellidos">
+		<label for="">Apellidos:</label><input type="text" style ="width: 100%; background: #F9EBEA;" placeholder="Ingresar Apellidos">
 
-		<label for="">Email:</label><input type="email" style ="width: 50%; background: #F9EBEA;" placeholder="Ingresar E-mail"> <br>
+		<label for="">Email:</label><input type="email" style ="width: 100%; background: #F9EBEA;" placeholder="Ingresar E-mail"> <br>
 
 		<label for="">Seleccione la ciudad</label>
 		<select name="" id="">
@@ -219,11 +239,10 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam repellat, repe
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/-L3mziLc_Pk?si=pXXDNPOLV_MHiT-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 	<br>
-	
-
 
 </div>
 
-
+<!-- clase del miercoles  -->
+<!--  -->
 </body>
 </html>
